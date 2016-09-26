@@ -39,18 +39,9 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-<h1>Новости</h1>
-	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/ah-slider.php'); ?>
-	<?php require_once('includes/ah-akci.php'); ?>
-	<?php require_once('includes/ah-news.php'); ?>
 
-	<?php require_once('includes/an-block1.php'); ?>
-	<?php require_once('includes/an-block2.php'); ?>
-	<?php require_once('includes/an-block3.php'); ?>
-	<?php require_once('includes/ah-info.php'); ?>
-	<?php require_once('includes/an-block4.php'); ?>
-	<?php require_once('includes/footer-top.php'); ?>
+	<?php require_once('includes/header.php'); ?>
+	
 	<?php require_once('includes/footer.php'); ?>
 	
 	
