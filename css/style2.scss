@@ -61,6 +61,7 @@
         font-style: italic;
         line-height: 18px;
         text-align: center;
+        outline: none;
     }
     input[type="submit"]{
         width: 18px;
@@ -68,6 +69,7 @@
         background: url(../img/ah-lup.png) center center no-repeat;
         border: none;
         cursor: pointer;
+        outline: none;
     }
 }
 // *********************** ah-menu********************
@@ -142,6 +144,7 @@
         font-style: italic;
         line-height: 18px;
         text-align: center;
+        outline: none;
     }
     input[type="submit"]{
         // width: 19px;
@@ -149,6 +152,7 @@
         background: url(../img/ah-lupfot.png) center center no-repeat;
         border: none;
         cursor: pointer;
+        outline: none;
     }
 }
 .ah-footer-span3{

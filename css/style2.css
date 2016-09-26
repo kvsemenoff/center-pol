@@ -58,13 +58,15 @@
     font-size: 12px;
     font-style: italic;
     line-height: 18px;
-    text-align: center; }
+    text-align: center;
+    outline: none; }
   .ah-searchform input[type="submit"] {
     width: 18px;
     height: 15px;
     background: url(../img/ah-lup.png) center center no-repeat;
     border: none;
-    cursor: pointer; }
+    cursor: pointer;
+    outline: none; }
 
 .ah-topmenu-wrap {
   width: 615px;
@@ -125,11 +127,13 @@
   font-size: 14px;
   font-style: italic;
   line-height: 18px;
-  text-align: center; }
+  text-align: center;
+  outline: none; }
 .ah-fotsearchform input[type="submit"] {
   background: url(../img/ah-lupfot.png) center center no-repeat;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  outline: none; }
 
 .ah-footer-span3 {
   display: block;
