@@ -1,4 +1,8 @@
-
+.no-gutter{
+    padding-right:0;
+    padding-left:0;
+}
+// *******************************
 .ah-head{
     padding-top: 30px;
     padding-bottom: 10px;
@@ -106,7 +110,27 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+	.ah-head-table{
+        display: block;
+        margin-top: 15px;
+        padding-top: 0px !important;
+    }
+    .ah-head-span1{
+        margin-top: 20px;
+    }
+    .ah-searchform-box{
+        margin-top: -6px;
+    }
+    .ah-searchform{
+        input[type="text"]{
+            width: 122px;
+            height: 27px;
+        }
+        input[type="submit"]{
+            width: 18px;
+            height: 15px;
+        }
+    }
 }
 
 /* Medium Devices, Desktops */

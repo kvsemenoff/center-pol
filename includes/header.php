@@ -9,7 +9,7 @@
 
 			<div class="clearfix"></div>
 
-			<div class="col-md-4 hidden-sm hidden-xs">
+			<div class="col-md-4 col-sm-4 hidden-xs">
 				<div class="ah-head-table">
 					<span class="ah-head-span">Поделиться:</span>
 					<ul class="ah-head-list">
@@ -31,7 +31,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="col-md-4 col-sm-4 col-xs-12 no-gutter">
 				<span class="ah-head-span1">Теплые полы и напольные покрытия</span>
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-12">
@@ -51,7 +51,7 @@
 <section class="ah-topmenu">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 hidden-sm hidden-xs">
+			<div class="col-md-12 col-sm-12 hidden-xs">
 				<div class="ah-topmenu-wrap">
 					<ul class="ah-topmenu-list">
 						<li><a href="#">Документы</a></li>
