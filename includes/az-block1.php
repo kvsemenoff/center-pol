@@ -24,28 +24,36 @@
 						<span class="az-title">Электрический теплый пол</span>
 						<div class="az-menu2">
 							<div class="col-xs-12 col-sm-6 col-md-6">
-								<div class="az-imgbox">
-									<img src="img/square.png" alt="">
+								<div class="az-menu-item">
+									<div class="az-imgbox">
+										<img src="img/square.png" alt="">
+									</div>
+									<a href="#">Электрический пленочный пол</a>
 								</div>
-								<a href="#">Электрический пленочный пол</a>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-6">
-								<div class="az-imgbox">
-									<img src="img/square.png" alt="">
+								<div class="az-menu-item">
+									<div class="az-imgbox">
+										<img src="img/square.png" alt="">
+									</div>
+									<a href="#">Электрический кабельный теплый пол</a>
 								</div>
-								<a href="#">Электрический кабельный теплый пол</a>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-6">
-								<div class="az-imgbox">
-									<img src="img/square.png" alt="">
+								<div class="az-menu-item">
+									<div class="az-imgbox">
+										<img src="img/square.png" alt="">
+									</div>
+									<a href="#">Нагревательные маты (термоматы)</a>
 								</div>
-								<a href="#">Нагревательные маты (термоматы)</a>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-6">
-								<div class="az-imgbox">
-									<img src="img/square.png" alt="">
+								<div class="az-menu-item">
+									<div class="az-imgbox">
+										<img src="img/square.png" alt="">
+									</div>
+									<a href="#">Терморегуляторы</a>
 								</div>
-								<a href="#">Терморегуляторы</a>
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -56,22 +64,28 @@
 						<span class="az-title">Водяной теплый пол</span>
 						<div class="az-menu2">
 							<div class="col-xs-12 col-sm-6 col-md-6">
-								<div class="az-imgbox">
-									<img src="img/square.png" alt="">
+								<div class="az-menu-item">
+									<div class="az-imgbox">
+										<img src="img/square.png" alt="">
+									</div>
+									<a href="#">Коллектор</a>
 								</div>
-								<a href="#">Коллектор</a>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-6">
-								<div class="az-imgbox">
-									<img src="img/square.png" alt="">
+								<div class="az-menu-item">
+									<div class="az-imgbox">
+										<img src="img/square.png" alt="">
+									</div>
+									<a href="#">Трубы</a>
 								</div>
-								<a href="#">Трубы</a>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-6">
-								<div class="az-imgbox">
-									<img src="img/square.png" alt="">
+								<div class="az-menu-item">
+									<div class="az-imgbox">
+										<img src="img/square.png" alt="">
+									</div>
+									<a href="#">Термостаты</a>
 								</div>
-								<a href="#">Термостаты</a>
 							</div>
 							<div class="clearfix"></div>
 						</div>

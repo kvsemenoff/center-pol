@@ -24,7 +24,7 @@ h2{
 	}
 }
 .h2margin1{
-	padding: 35px 0 20px 0;
+	padding: 28px 0 12px 0;
 }
 
 .az-block1{
@@ -36,7 +36,7 @@ h2{
 .az-menu{
 	li{
 		font-size: 14px;
-		line-height: 35px;
+		line-height: 39px;
 		display: block;
 		text-align: center;
 		a{
@@ -46,7 +46,7 @@ h2{
 		a:before{
 			position: absolute;
 			content: '';
-			bottom: -3px;
+			bottom: -1px;
 			left: 0px;
 			width: 100%;
 			height: 1px;
@@ -70,7 +70,7 @@ h2{
 	content: '';
 	width: 10px;
 	height: 11px;
-	left: -20px;
+	left: -23px;
 	top: 50%;
 	transform: translate(0, -50%);
 	background: url(../img/az-arrow.png) no-repeat top left; 
@@ -79,10 +79,7 @@ h2{
 .az-menu2{
 	width: 100%;
 	> div{
-
-		// margin-left: 15px;
-		// line-height: 30px;
-		// padding: 7px 0px;
+		padding: 7px 0px 7px 20px;
 		img{
 			display: none;
 		}
@@ -93,6 +90,10 @@ h2{
 		}
 	}
 }
+.az-inner-menu2{
+	margin-top: 9px;
+}
+
 
 /*==========  Mobile First Method  ==========*/
 
@@ -113,7 +114,9 @@ h2{
     }
 	.az-menu2{
 		width: 100%;
+
 		>div{
+			padding: unset;
 			text-align: center;
 
 			// margin-left: 15px;
@@ -122,12 +125,13 @@ h2{
 			.az-imgbox{
 				width: 128px;
 				height: 128px;
-				margin: 0 auto;
+				margin: 9px auto;
 			}
 			img{
 				display: block;
 				width: 100%;
 				height: auto;
+
 				// margin
 			}
 			a{
@@ -135,14 +139,16 @@ h2{
 				font-size: 14px;
 				text-align: center;
 				display: inline-block;
-				max-width: 230px;
+				max-width: 190px;
 				// line-height: 20px;
+			}
+			.az-menu-item{
+				min-height: 190px;
 			}
 		}
 	}
 	.az-title{
-		// display: block;
-		text-align: center;
+		font-size: 16px;
 	}
 	.az-inner-menu2{
 		text-align: center;
@@ -177,7 +183,9 @@ h2{
 			line-height: 60px;
 		}
 	}
-
+	.az-title{
+		font-size: 18px;
+	}
 }
 
  /* Large Devices, Wide Screens */
