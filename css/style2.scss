@@ -1,6 +1,99 @@
-
-
-
+.no-gutter{
+    padding-right:0;
+    padding-left:0;
+}
+// *******************************
+.ah-head{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: #ebebeb;
+}
+.ah-logobox{
+    text-align: center;
+}
+.ah-head-table{
+    display: table;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.ah-head-span{
+    display: table-cell;
+    font-family: "NotoSans Regular";
+    color: #474747;
+    font-size: 12px;
+    line-height: 18px;
+    vertical-align: middle;
+    padding-right: 7px;
+}
+.ah-head-span1{
+    display: block;
+    color: #000;
+    font-family: "NotoSans Regular";
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 7px;
+}
+.ah-head-list{
+    display: table-cell;
+    li{
+        display: inline-block;
+        margin-right: 5px;
+    }
+}
+.ah-searchform-box{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.ah-searchform{
+    margin-left: 0px;
+    margin-top: 20px;
+    input[type="text"]{
+        width: 225px;
+        height: 27px;
+        background-color: #fff;
+        border: 0.46px solid #959595;
+        border-radius: 14px;
+        color: #6d6d6d;
+        font-family: Verdana;
+        font-size: 12px;
+        font-style: italic;
+        line-height: 18px;
+        text-align: center;
+    }
+    input[type="submit"]{
+        width: 18px;
+        height: 15px;
+        background: url(../img/ah-lup.png) center center no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+}
+// *********************** ah-menu********************
+.ah-topmenu-wrap{
+    width: 615px;
+    height: 45px;
+    background-color: #fff;
+    border: 0.26px solid #eeeeee;
+    padding: 15px 30px;
+    margin: 0 auto;
+}
+.ah-topmenu-list{
+    li{
+        display: inline-block;
+        margin-right: 68px;
+        a{
+            font-family: "NotoSans Regular";
+            color: #000;
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    li:last-child{
+        margin-right: 0px;
+    }
+}
 
 
 /*==========  Mobile First Method  ==========*/
@@ -17,12 +110,55 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+	.ah-head-table{
+        display: block;
+        margin-top: 15px;
+        padding-top: 0px !important;
+    }
+    .ah-head-span1{
+        margin-top: 20px;
+    }
+    .ah-searchform-box{
+        margin-top: -6px;
+    }
+    .ah-searchform{
+        input[type="text"]{
+            width: 122px;
+            height: 27px;
+        }
+        input[type="submit"]{
+            width: 18px;
+            height: 15px;
+        }
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    
+    .ah-head{
+        padding-bottom: 3px;
+    }
+    .ah-head-table{
+        padding-top: 20px;
+        padding-left: 65px;
+    }
+    .ah-searchform-box{
+        text-align: center;
+        margin-top: 16px;
+        margin-left: 68px;
+    }
+    .ah-searchform{
+        margin-left: 5px;
+        margin-top: 17px;
+        input[type="text"]{
+            width: 122px;
+            height: 27px;
+        }
+        input[type="submit"]{
+            width: 18px;
+            height: 15px;
+        }
+    }
 }
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
