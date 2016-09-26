@@ -16,9 +16,65 @@ strong{
 .sidebar{
     background: #EAE9E9;
     text-align: right;
-    //outline: 1px solid red;
+    h3{
+        color:#696969;
+        font-size: 14px;
+        font-family: "NotoSans Regular";
+        text-transform: uppercase;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .ab-h3-sidebar{
+        color:#F7931E;
+    }
+    span{
+        color:#939393;
+        font-size: 12px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        display: block;
+    }
+    
 }
 
+.ab-main{
+    .ab-txt-wrap{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .ab-txt1{
+        display: inline-block;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px; 
+    }
+    .ab-txt{
+        //text-align: center;
+    }
+    .ab-span{
+        font-size: 14px;
+        font-family: "NotoSans Regular";
+        text-transform: uppercase;
+        border-bottom: 1px solid #696969;
+    }
+    .ab-img-box{
+        img{
+            margin: 0 auto;
+        }
+    }
+    .view{
+      background: url(../img/eye.png) no-repeat left center;
+      padding-left: 30px;
+
+    }
+    .comment-count{
+      background: url(../img/comments.png) no-repeat left center;
+      padding-left: 30px;
+      margin-left: 40px;
+    }
+}
 
 /*==========  Mobile First Method  ==========*/
 
@@ -34,7 +90,22 @@ strong{
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+	.ab-main{
+
+         .ab-img-box{
+            float: left;
+            padding-right: 20px;
+        }
+        .ab-txt-wrap{
+            text-align: left !important;
+            padding-top: 40px;
+        }
+        .ab-txt{
+        padding-top: 60px;
+        }
+
+    }
+    
 }
 
 /* Medium Devices, Desktops */
