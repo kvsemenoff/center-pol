@@ -3,13 +3,13 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="ah-logobox">
-					<img src="img/ah-logo.png" alt="ah-logo">
+					<a href="/"><img src="img/ah-logo.png" alt="ah-logo"></a>
 				</div>
 			</div>
 
 			<div class="clearfix"></div>
 
-			<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="col-md-4 hidden-sm hidden-xs">
 				<div class="ah-head-table">
 					<span class="ah-head-span">Поделиться:</span>
 					<ul class="ah-head-list">
@@ -46,3 +46,21 @@
 	</div>
 </section>	
 
+<div class="clearfix"></div>
+
+<section class="ah-topmenu">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 hidden-sm hidden-xs">
+				<div class="ah-topmenu-wrap">
+					<ul class="ah-topmenu-list">
+						<li><a href="#">Документы</a></li>
+						<li><a href="#">Вопрос эксперту</a></li>
+						<li><a href="#">Калькуляторы</a></li>
+						<li><a href="#">Видео</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
