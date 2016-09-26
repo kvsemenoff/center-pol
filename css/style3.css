@@ -3,22 +3,39 @@ h2 {
   font-size: 14px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #ff9933; }
+  color: #ff9933;
+  text-align: center;
+  line-height: 35px; }
 
-h2 {
+h2 span {
   position: relative; }
-  h2 span:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    background-color: #ff9933; }
+h2 span:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -7px;
+  left: 0px;
+  background-color: #ff9933; }
+
+.h2margin1 {
+  padding: 35px 0 20px 0; }
+
+.az-block1 {
+  background-color: #fff; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 18px; } }
 /* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  h2 {
+    font-size: 24px;
+    background-color: #f8f7f7; } }
 /* Large Devices, Wide Screens */
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
