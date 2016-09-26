@@ -8,8 +8,8 @@
   margin: 0 auto; }
 
 .sidebar {
-  width: 100%;
-  background-color: #EAE9E9; }
+  background: #EAE9E9;
+  text-align: right; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
