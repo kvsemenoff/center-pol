@@ -14,7 +14,7 @@
 			<div class="clearfix"></div>
 
 			<div class="col-md-3 col-sm-3 col-xs-6">
-				<span class="ah-footer-title">ИНФО</span>
+				<a href="#"><span class="ah-footer-title">ИНФО</span></a>
 				<ul class="ah-footer-list1">
 					<li><a href="#">КАЛЬКУЛЯТОРЫ</a></li>
 					<li><a href="#">ВИДЕО</a></li>
@@ -23,7 +23,7 @@
 				</ul>
 			</div>
 			<div class="col-md-6 col-sm-6 col-xs-6">
-				<span class="ah-footer-title1">О ПОРТАЛЕ</span>
+				<a href="#"><span class="ah-footer-title1">О ПОРТАЛЕ</span></a>
 				<ul class="ah-footer-list2">
 					<li><a href="#">РЕКЛАМОДАТЕЛЯМ</a></li>
 					<li><a href="#">КОНТАКТЫ</a></li>
