@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <section class="ah-head">
 	<div class="container">
 		<div class="row">
@@ -46,5 +45,4 @@
 		</div>
 	</div>
 </section>	
-=======
->>>>>>> 2a88f27d6f0bea01b0eacd196259b3afd4a2ce1a
+
