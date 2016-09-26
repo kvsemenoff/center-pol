@@ -24,14 +24,76 @@ h2{
 	}
 }
 .h2margin1{
-	padding: 35px 0 20px 0;
+	padding: 28px 0 12px 0;
 }
 
 .az-block1{
 	background-color: #fff;
-	// padding: 35px 0px;
+}
+.az-block11{
+	background-color: #f8f7f7;
+}
+.az-menu{
+	li{
+		font-size: 14px;
+		line-height: 39px;
+		display: block;
+		text-align: center;
+		a{
+			color: #535353;
+			position: relative;
+		}
+		a:before{
+			position: absolute;
+			content: '';
+			bottom: -1px;
+			left: 0px;
+			width: 100%;
+			height: 1px;
+			background-color: #535353;
+		}
+
+	}
+	
+}
+
+.az-title{
+	font-size: 14px;
+	position: relative;
+	color: #052845;
+	line-height: 35px;
+	// margin-left: 30px;
 
 }
+.az-title:before{
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 11px;
+	left: -23px;
+	top: 50%;
+	transform: translate(0, -50%);
+	background: url(../img/az-arrow.png) no-repeat top left; 
+}
+
+.az-menu2{
+	width: 100%;
+	> div{
+		padding: 7px 0px 7px 20px;
+		img{
+			display: none;
+		}
+		a{
+			color: #950000;
+			font-size: 14px;
+			// line-height: 20px;
+		}
+	}
+}
+.az-inner-menu2{
+	margin-top: 9px;
+}
+
 
 /*==========  Mobile First Method  ==========*/
 
@@ -50,6 +112,53 @@ h2{
     h2{
     	font-size: 18px;
     }
+	.az-menu2{
+		width: 100%;
+
+		>div{
+			padding: unset;
+			text-align: center;
+
+			// margin-left: 15px;
+			// line-height: 30px;
+			// padding: 7px 0px;
+			.az-imgbox{
+				width: 128px;
+				height: 128px;
+				margin: 9px auto;
+			}
+			img{
+				display: block;
+				width: 100%;
+				height: auto;
+
+				// margin
+			}
+			a{
+				color: #950000;
+				font-size: 14px;
+				text-align: center;
+				display: inline-block;
+				max-width: 190px;
+				// line-height: 20px;
+			}
+			.az-menu-item{
+				min-height: 190px;
+			}
+		}
+	}
+	.az-title{
+		font-size: 16px;
+	}
+	.az-inner-menu2{
+		text-align: center;
+		border-top-left-radius: 12px 10px;
+		border-top-right-radius: 12px 10px;
+		border-bottom-left-radius: 12px 10px;
+		border-bottom-right-radius: 12px 10px;
+		background: #fff;
+		margin-bottom: 55px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -57,6 +166,25 @@ h2{
 	h2{
 		font-size: 24px;
 		background-color: #f8f7f7;
+	}
+	.az-block11{
+		background-color: #fff;
+
+	}
+	.cont_style{
+		background-color: #f8f7f7;
+	}
+    .az-menu{
+    	padding: 0 30px;
+    	background-color: #f8f7f7;
+		li{
+			display: inline-block;
+			margin-right: 120px;
+			line-height: 60px;
+		}
+	}
+	.az-title{
+		font-size: 18px;
 	}
 }
 
