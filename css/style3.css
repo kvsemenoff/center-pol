@@ -24,18 +24,107 @@ h2 span:before {
 .az-block1 {
   background-color: #fff; }
 
+.az-block11 {
+  background-color: #f8f7f7; }
+
+.az-menu li {
+  font-size: 14px;
+  line-height: 35px;
+  display: block;
+  text-align: center; }
+  .az-menu li a {
+    color: #535353;
+    position: relative; }
+  .az-menu li a:before {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #535353; }
+
+.az-title {
+  font-size: 14px;
+  position: relative;
+  color: #052845;
+  line-height: 35px; }
+
+.az-title:before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 11px;
+  left: -20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background: url(../img/az-arrow.png) no-repeat top left; }
+
+.az-menu2 {
+  width: 100%; }
+  .az-menu2 > div img {
+    display: none; }
+  .az-menu2 > div a {
+    color: #950000;
+    font-size: 14px; }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   h2 {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .az-menu2 {
+    width: 100%; }
+    .az-menu2 > div {
+      text-align: center; }
+      .az-menu2 > div .az-imgbox {
+        width: 128px;
+        height: 128px;
+        margin: 0 auto; }
+      .az-menu2 > div img {
+        display: block;
+        width: 100%;
+        height: auto; }
+      .az-menu2 > div a {
+        color: #950000;
+        font-size: 14px;
+        text-align: center;
+        display: inline-block;
+        max-width: 230px; }
+
+  .az-title {
+    text-align: center; }
+
+  .az-inner-menu2 {
+    text-align: center;
+    border-top-left-radius: 12px 10px;
+    border-top-right-radius: 12px 10px;
+    border-bottom-left-radius: 12px 10px;
+    border-bottom-right-radius: 12px 10px;
+    background: #fff;
+    margin-bottom: 55px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   h2 {
     font-size: 24px;
-    background-color: #f8f7f7; } }
+    background-color: #f8f7f7; }
+
+  .az-block11 {
+    background-color: #fff; }
+
+  .cont_style {
+    background-color: #f8f7f7; }
+
+  .az-menu {
+    padding: 0 30px;
+    background-color: #f8f7f7; }
+    .az-menu li {
+      display: inline-block;
+      margin-right: 120px;
+      line-height: 60px; } }
 /* Large Devices, Wide Screens */
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
