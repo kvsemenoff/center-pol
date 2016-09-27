@@ -26,7 +26,7 @@ strong{
         padding-bottom: 10px;
         padding-top: 15px;
         display: inline-block;
-        outline: 1px solid red;
+        //outline: 1px solid red;
     }
     .ab-second > li > a{
         color:#696969;
@@ -37,7 +37,7 @@ strong{
         padding-bottom: 10px;
         padding-top: 15px;
         display: inline-block;
-        outline: 1px solid blue;
+        //outline: 1px solid blue;
     }
     .ab-threed > li > a{
         color:#939393;
@@ -46,31 +46,7 @@ strong{
         padding-bottom: 5px;
         padding-right: 10px;
         display: inline-block;
-        outline: 1px solid green;
-    }
-
-
-
-
-    h3{
-        color:#696969;
-        font-size: 14px;
-        font-family: "NotoSans Regular";
-        text-transform: uppercase;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        padding-top: 15px;
-    }
-    .ab-h3-sidebar{
-        color:#F7931E;
-    }
-    span{
-        color:#939393;
-        font-size: 12px;
-        padding-top: 15px;
-        padding-bottom: 5px;
-        padding-right: 10px;
-        display: block;
+        //outline: 1px solid green;
     }
     
 }
@@ -85,9 +61,6 @@ strong{
         text-align: center;
         margin-top: 10px;
         margin-bottom: 20px; 
-    }
-    .ab-txt{
-        //text-align: center;
     }
     .ab-span{
         font-size: 14px;
@@ -112,6 +85,32 @@ strong{
     }
 }
 
+.ab-popular{
+    max-width: 300px;
+    height: 50px;
+    background: #312F66;
+    border-right: 15px solid #F7931E;
+    padding-top: 12px;
+    padding-left: 16px;
+    margin: 80px 0 62px; 
+    span{
+        font-size: 14px;
+        font-style: italic;
+        text-transform: uppercase;
+        color:#fff;
+        font-weight: bold;
+    }
+}
+
+.ab-txt-2{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;  
+    span{
+        font-size: 16px;
+        font-family: "NotoSans Regular";
+    }
+}
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */

@@ -5,7 +5,6 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-sm-12 col-xs-12">
-
 				<div class="ab-main">
 					<div class="ab-img-box">
 						<img class="img-responsive" src="img/ab-black.png" alt="">
@@ -141,15 +140,13 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				
 
 
-
+			
 			</div>
 
 			<div class="col-md-4 col-sm-12 col-xs-12">
 				<div class="sidebar">
-					
 					<ul class="ab-first">
 						<li>
 							<a href="#">Теплый пол</a>
@@ -256,6 +253,41 @@
 		</div>	
 	</div>
 </section>			
+
+<!-- Популярные материалы -->
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12 col-xs-12">		
+				<div class="ab-popular">
+					<span>Популярные материалы</span>
+				</div>	
+				<div class="ab-main">
+					<div class="ab-img-box">
+						<img class="img-responsive" src="img/ab-black-mini.png" alt="">
+					</div>
+					<div class="ab-txt-2">
+						<span>Название статьи</span>
+					</div>
+				</div>
+
+				<div class="ab-main">
+					<div class="ab-img-box">
+						<img class="img-responsive" src="img/ab-black-mini.png" alt="">
+					</div>
+					<div class="ab-txt-2">
+						<span>Название статьи</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>				
+
+<!-- ******************** -->
+
+
 
 <?php require_once('includes/footer.php'); ?>	
 	

@@ -18,8 +18,7 @@
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 15px;
-    display: inline-block;
-    outline: 1px solid red; }
+    display: inline-block; }
   .sidebar .ab-second > li > a {
     color: #696969;
     font-size: 14px;
@@ -28,33 +27,14 @@
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 15px;
-    display: inline-block;
-    outline: 1px solid blue; }
+    display: inline-block; }
   .sidebar .ab-threed > li > a {
     color: #939393;
     font-size: 12px;
     padding-top: 15px;
     padding-bottom: 5px;
     padding-right: 10px;
-    display: inline-block;
-    outline: 1px solid green; }
-  .sidebar h3 {
-    color: #696969;
-    font-size: 14px;
-    font-family: "NotoSans Regular";
-    text-transform: uppercase;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 15px; }
-  .sidebar .ab-h3-sidebar {
-    color: #F7931E; }
-  .sidebar span {
-    color: #939393;
-    font-size: 12px;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    display: block; }
+    display: inline-block; }
 
 .ab-main .ab-txt-wrap {
   text-align: center;
@@ -78,6 +58,29 @@
   background: url(../img/comments.png) no-repeat left center;
   padding-left: 30px;
   margin-left: 40px; }
+
+.ab-popular {
+  max-width: 300px;
+  height: 50px;
+  background: #312F66;
+  border-right: 15px solid #F7931E;
+  padding-top: 12px;
+  padding-left: 16px;
+  margin: 80px 0 62px; }
+  .ab-popular span {
+    font-size: 14px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold; }
+
+.ab-txt-2 {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px; }
+  .ab-txt-2 span {
+    font-size: 16px;
+    font-family: "NotoSans Regular"; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
