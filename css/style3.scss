@@ -93,7 +93,9 @@ h2{
 .az-inner-menu2{
 	margin-top: 9px;
 }
-
+.az-grey{
+	background-color: #f8f7f7;
+}
 
 /*==========  Mobile First Method  ==========*/
 
@@ -159,10 +161,16 @@ h2{
 		background: #fff;
 		margin-bottom: 55px;
 	}
+	.az-grey{
+		background-color: #f8f7f7;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	.az-margin-top30{
+		margin-top: 30px;
+	}
 	h2{
 		font-size: 24px;
 		background-color: #f8f7f7;
@@ -185,6 +193,9 @@ h2{
 	}
 	.az-title{
 		font-size: 18px;
+	}
+	.az-grey{
+		background-color: #f8f7f7;
 	}
 }
 

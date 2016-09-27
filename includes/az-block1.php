@@ -1,4 +1,4 @@
-<section class="az-block1">
+<section class="az-block1 az-margin-top30">
 	<div class="container cont_style">
 		<div class="row">
 			<div class="col-md-12">
