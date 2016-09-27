@@ -16,6 +16,42 @@ strong{
 .sidebar{
     background: #EAE9E9;
     text-align: right;
+
+    .ab-first > li > a {
+        color:#F7931E;
+        font-size: 14px;
+        font-family: "NotoSans Regular";
+        text-transform: uppercase;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        display: inline-block;
+        outline: 1px solid red;
+    }
+    .ab-second > li > a{
+        color:#696969;
+        font-size: 14px;
+        font-family: "NotoSans Regular";
+        text-transform: uppercase;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        display: inline-block;
+        outline: 1px solid blue;
+    }
+    .ab-threed > li > a{
+        color:#939393;
+        font-size: 12px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        display: inline-block;
+        outline: 1px solid green;
+    }
+
+
+
+
     h3{
         color:#696969;
         font-size: 14px;
